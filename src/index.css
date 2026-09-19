@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-void: #141810;
+    --color-bone: #F2F0E2;
+    --color-moss: #8DA05C;
+    --color-pine: #3B4A2F;
+    --color-sage: #C7CBA9;
+  }
+
+  body {
+    background-color: #F2F0E2;
+    color: #141810;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, .font-serif-heading {
+    font-family: 'Fraunces', 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Zone system styling utilities */
+.zone-void {
+  background-color: #141810;
+  color: #F2F0E2;
+}
+
+.zone-bone {
+  background-color: #F2F0E2;
+  color: #141810;
+}
+
+/* Primary Button Styling - Consistent Moss in all zones */
+.btn-moss {
+  background-color: #8DA05C;
+  color: #141810;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-moss:hover {
+  background-color: #9cb06a;
+}
+
+/* Custom editorial scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #141810;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B4A2F;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8DA05C;
+}

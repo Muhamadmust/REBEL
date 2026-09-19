@@ -1,0 +1,6 @@
+{
+  "name": "Rebel Fashion",
+  "description": "Minimalist editorial e-commerce MVP for fashion brand Rebel, featuring a curated collection, waitlist email capture, lookbook, and press portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
